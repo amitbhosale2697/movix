@@ -7,7 +7,7 @@ const headers = {
     Authorization: "bearer " + TMDB_TOKEN,
 }
 
-console.log("git setup")
+console.log("git setup from main")
 
 export const fetchDataFromApi = async (url,params) => {
     try {
